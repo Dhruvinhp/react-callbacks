@@ -37,7 +37,8 @@ const Memo = () => {
 };
 
 const slowfunction = (n) => {
-  for (let i = 0; i < 1000000000; i++) {}
+  for (let i = 0; i < 10000; i++) {}
+  // some time consuming operation
   return n * 2;
 };
 export default Memo;
